@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 780" role="img"
+     aria-label="DS-1 concentric containment and security zone model Z0 to Z4 with boundary control points">
+  <title>DS1-DRG-002 — Containment and Security Zone Model</title>
+  <defs>
+    <pattern id="zm-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#161d24" stroke-width="1"/>
+    </pattern>
+    <pattern id="zm-core" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#8a3a34" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+
+  <rect width="1400" height="780" fill="#0b0e11"/>
+  <rect width="1400" height="780" fill="url(#zm-grid)"/>
+  <rect x="16" y="16" width="1368" height="748" fill="none" stroke="#2a343d"/>
+
+  <g font-family="ui-monospace, Menlo, monospace">
+
+    <!-- concentric zones -->
+    <g transform="translate(360,392)">
+      <circle r="330" fill="#0e141a" stroke="#8f9ba6" stroke-width="2"/>
+      <circle r="268" fill="#101820" stroke="#5c6b78" stroke-width="1.4"/>
+      <circle r="206" fill="#121b23" stroke="#5c6b78" stroke-width="1.4"/>
+      <circle r="144" fill="#141e27" stroke="#7d8b96" stroke-width="1.4"/>
+      <circle r="76"  fill="#16202a" stroke="#a83c33" stroke-width="2"/>
+      <circle r="76"  fill="url(#zm-core)" opacity="0.5"/>
+
+      <!-- radial sector separators -->
+      <g stroke="#232d36" stroke-width="1" stroke-dasharray="5 6">
+        <line x1="0" y1="-330" x2="0" y2="330"/>
+        <line x1="-330" y1="0" x2="330" y2="0"/>
+        <line x1="-233" y1="-233" x2="233" y2="233"/>
+        <line x1="233" y1="-233" x2="-233" y2="233"/>
+      </g>
+
+      <!-- zone labels along the vertical -->
+      <g font-size="15" font-weight="700" fill="#c6d0d8" text-anchor="middle">
+        <text y="6">Z0</text>
+        <text y="-108">Z1</text>
+        <text y="-172">Z2</text>
+        <text y="-234">Z3</text>
+        <text y="-298">Z4</text>
+      </g>
+      <g font-size="10.5" letter-spacing="1.6" fill="#7d8b96" text-anchor="middle">
+        <text y="24">CORE</text>
+        <text y="-92">CRITICAL</text>
+        <text y="-156">CONTROL</text>
+        <text y="-218">OPERATIONAL</text>
+        <text y="-282">PERIMETER</text>
+      </g>
+
+      <!-- boundary control points -->
+      <g fill="#0b0e11" stroke="#c8901f" stroke-width="1.6">
+        <rect x="-9"    y="-153"  width="18" height="18"/>
+        <rect x="93"    y="-115"  width="18" height="18"/>
+        <rect x="-111"  y="-115"  width="18" height="18"/>
+        <rect x="-9"    y="-215"  width="18" height="18"/>
+        <rect x="137"   y="-163"  width="18" height="18"/>
+        <rect x="-155"  y="-163"  width="18" height="18"/>
+        <rect x="-9"    y="-277"  width="18" height="18"/>
+        <rect x="181"   y="-211"  width="18" height="18"/>
+        <rect x="-199"  y="-211"  width="18" height="18"/>
+        <rect x="-9"    y="-85"   width="18" height="18"/>
+      </g>
+      <!-- airlock / pressure bulkhead markers, southern half -->
+      <g fill="none" stroke="#4f8a76" stroke-width="1.6">
+        <circle cx="0"   cy="110" r="9"/><circle cx="0"   cy="175" r="9"/>
+        <circle cx="0"   cy="237" r="9"/><circle cx="0"   cy="299" r="9"/>
+        <circle cx="102" cy="102" r="9"/><circle cx="-102" cy="102" r="9"/>
+        <circle cx="146" cy="146" r="9"/><circle cx="-146" cy="146" r="9"/>
+      </g>
+    </g>
+
+    <!-- diagram legend -->
+    <g font-size="12" fill="#aab5be">
+      <rect x="60" y="716" width="16" height="16" fill="#0b0e11" stroke="#c8901f" stroke-width="1.6"/>
+      <text x="86" y="729">Boundary Control Point (identity + authorization checkpoint)</text>
+      <circle cx="626" cy="724" r="8" fill="none" stroke="#4f8a76" stroke-width="1.6"/>
+      <text x="644" y="729">Pressure Bulkhead / Emergency Isolation Door</text>
+    </g>
+
+    <!-- ============ ZONE TABLE ============ -->
+    <text x="740" y="70" font-size="12" letter-spacing="3" fill="#8f9ba6">ZONE REGISTER — DS1-SEC-001</text>
+    <line x1="740" y1="82" x2="1376" y2="82" stroke="#4a5a67"/>
+
+    <g font-size="10.5" letter-spacing="1.8" fill="#55636e">
+      <text x="746"  y="112">ZONE</text>
+      <text x="812"  y="112">DESIGNATION</text>
+      <text x="1064" y="112">MIN. CLEARANCE</text>
+      <text x="1246" y="112">NETWORK ENCLAVE</text>
+    </g>
+    <line x1="740" y1="124" x2="1376" y2="124" stroke="#4a5a67"/>
+
+    <g font-size="13" fill="#aab5be">
+      <text x="746"  y="156" fill="#d0342c" font-weight="700">Z0</text>
+      <text x="812"  y="156">Reactor Containment</text>
+      <text x="1064" y="156">IMP-5 / TWO-PERSON</text>
+      <text x="1246" y="156">ENC-CORE</text>
+
+      <text x="746"  y="212" font-weight="700">Z1</text>
+      <text x="812"  y="212">Critical Systems</text>
+      <text x="1064" y="212">IMP-4</text>
+      <text x="1246" y="212">ENC-CTRL</text>
+
+      <text x="746"  y="268" font-weight="700">Z2</text>
+      <text x="812"  y="268">Command &amp; Sector Control</text>
+      <text x="1064" y="268">IMP-3</text>
+      <text x="1246" y="268">ENC-CTRL</text>
+
+      <text x="746"  y="324" font-weight="700">Z3</text>
+      <text x="812"  y="324">Operational / Habitation</text>
+      <text x="1064" y="324">IMP-2</text>
+      <text x="1246" y="324">ENC-OPS</text>
+
+      <text x="746"  y="380" font-weight="700">Z4</text>
+      <text x="812"  y="380">Perimeter / Hangar Belt</text>
+      <text x="1064" y="380">IMP-1</text>
+      <text x="1246" y="380">ENC-LOG</text>
+    </g>
+    <g font-size="10.5" fill="#6c7a86">
+      <text x="812" y="174">Fuel handling, containment field control</text>
+      <text x="812" y="230">Power trunks, life support plant, drive control</text>
+      <text x="812" y="286">Overbridge, sector nodes, sensor fusion</text>
+      <text x="812" y="342">Barracks, workshops, medical, transit spine</text>
+      <text x="812" y="398">Docking, cargo handling, hull maintenance</text>
+    </g>
+    <g stroke="#232d36">
+      <line x1="740" y1="184" x2="1376" y2="184"/>
+      <line x1="740" y1="240" x2="1376" y2="240"/>
+      <line x1="740" y1="296" x2="1376" y2="296"/>
+      <line x1="740" y1="352" x2="1376" y2="352"/>
+      <line x1="740" y1="408" x2="1376" y2="408"/>
+    </g>
+
+    <!-- rule -->
+    <text x="740" y="446" font-size="11" letter-spacing="2" fill="#8f9ba6">TRAVERSAL RULE</text>
+    <g font-size="12" fill="#aab5be">
+      <text x="740" y="472">Zone traversal is permitted one boundary at a time and inward</text>
+      <text x="740" y="492">only. A transit that would skip a boundary is rejected at the</text>
+      <text x="740" y="512">Boundary Control Point and raised as a Class-2 security event.</text>
+      <text x="740" y="532" fill="#c8901f">Design deviation requires approval from Imperial Engineering Command.</text>
+    </g>
+
+    <!-- title block -->
+    <rect x="740" y="566" width="636" height="122" fill="#0d1318" stroke="#4a5a67"/>
+    <line x1="740" y1="612" x2="1376" y2="612" stroke="#4a5a67"/>
+    <line x1="1076" y1="612" x2="1076" y2="688" stroke="#4a5a67"/>
+    <text x="754" y="596" font-size="13" letter-spacing="2.4" fill="#c6d0d8">IMPERIAL ENGINEERING DIRECTORATE</text>
+    <text x="754" y="636" font-size="10" letter-spacing="2" fill="#55636e">DRAWING</text>
+    <text x="754" y="656" font-size="13" fill="#aab5be">DS1-DRG-002</text>
+    <text x="754" y="678" font-size="11" fill="#7d8b96">Containment &amp; Security Zone Model</text>
+    <text x="1090" y="636" font-size="10" letter-spacing="2" fill="#55636e">REV / SCALE</text>
+    <text x="1090" y="656" font-size="13" fill="#aab5be">4.2 / NTS</text>
+    <text x="1090" y="678" font-size="12" letter-spacing="2.4" fill="#a83c33">IMPERIAL RESTRICTED</text>
+  </g>
+</svg>

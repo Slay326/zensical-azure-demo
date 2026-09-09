@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img"
+     aria-label="DS-1 typical hangar bay plan showing containment field, landing pads, traffic lanes and boundary control points">
+  <title>DS1-DRG-005 — Typical Hangar Bay, General Plan and Traffic Flow</title>
+  <defs>
+    <pattern id="hb-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#161d24" stroke-width="1"/>
+    </pattern>
+    <pattern id="hb-field" width="8" height="8" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="8" y2="8" stroke="#3f6f80" stroke-width="1.2"/>
+    </pattern>
+    <pattern id="hb-haz" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#5a4a1a" stroke-width="3"/>
+    </pattern>
+    <marker id="hb-in" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#4f8a76"/>
+    </marker>
+    <marker id="hb-out" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8f9ba6"/>
+    </marker>
+    <marker id="hb-cgo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#c8901f"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="800" fill="#0b0e11"/>
+  <rect width="1400" height="800" fill="url(#hb-grid)"/>
+  <rect x="16" y="16" width="1368" height="768" fill="none" stroke="#2a343d"/>
+
+  <g font-family="ui-monospace, Menlo, monospace" fill="#aab5be">
+    <text x="70" y="58" font-size="15" letter-spacing="3.2" fill="#c6d0d8">TYPICAL HANGAR BAY &#8212; GENERAL PLAN AND TRAFFIC FLOW</text>
+    <text x="70" y="80" font-size="11" letter-spacing="1.6" fill="#7d8b96">Typical of 72 bays. Plan looking outboard from the station interior. Bay reference shown: BAY-N1-060-03.</text>
+
+    <!-- bay envelope -->
+    <rect x="90" y="150" width="800" height="470" fill="#0e141a" stroke="#8f9ba6" stroke-width="2"/>
+
+    <!-- containment field and blast doors at the bay mouth -->
+    <rect x="90" y="150" width="18" height="470" fill="url(#hb-field)" stroke="#3f6f80" stroke-width="1.4"/>
+    <rect x="112" y="150" width="14" height="230" fill="#141b22" stroke="#8f9ba6" stroke-width="1.4"/>
+    <rect x="112" y="390" width="14" height="230" fill="#141b22" stroke="#8f9ba6" stroke-width="1.4"/>
+    <text x="99" y="700" font-size="10" letter-spacing="1.4" fill="#3f6f80" transform="rotate(-90 99 700)">ATMOSPHERIC CONTAINMENT FIELD</text>
+    <text x="121" y="700" font-size="10" letter-spacing="1.4" fill="#8f9ba6" transform="rotate(-90 121 700)">BLAST DOOR, BI-PARTING</text>
+
+    <!-- crew gallery -->
+    <rect x="126" y="152" width="762" height="38" fill="#121a21" stroke="#3a4753" stroke-width="1"/>
+    <text x="140" y="176" font-size="10.5" letter-spacing="1.8" fill="#7d8b96">CREW GALLERY / MUSTER LANE &#8212; ZONE Z4</text>
+
+    <!-- servicing gallery, hazard-marked -->
+    <rect x="126" y="576" width="762" height="42" fill="url(#hb-haz)" opacity="0.5"/>
+    <rect x="126" y="576" width="762" height="42" fill="none" stroke="#c8901f" stroke-width="1.4"/>
+    <text x="140" y="602" font-size="10.5" letter-spacing="1.8" fill="#c8901f">SERVICING GALLERY &#8212; PROPELLANT AND ORDNANCE HANDLING &#8212; PHYSICALLY ISOLATED, NO THROUGH TRANSIT</text>
+
+    <!-- landing pads -->
+    <g>
+      <g fill="#131b22" stroke="#5c6b78" stroke-width="1.4">
+        <rect x="300" y="206" width="112" height="88"/><rect x="440" y="206" width="112" height="88"/>
+        <rect x="580" y="206" width="112" height="88"/><rect x="720" y="206" width="112" height="88"/>
+        <rect x="300" y="326" width="112" height="88"/><rect x="440" y="326" width="112" height="88"/>
+        <rect x="580" y="326" width="112" height="88"/><rect x="720" y="326" width="112" height="88"/>
+        <rect x="300" y="446" width="112" height="88"/><rect x="440" y="446" width="112" height="88"/>
+        <rect x="580" y="446" width="112" height="88"/><rect x="720" y="446" width="112" height="88"/>
+      </g>
+      <g fill="none" stroke="#3a4753" stroke-width="1">
+        <circle cx="356" cy="250" r="30"/><circle cx="496" cy="250" r="30"/>
+        <circle cx="636" cy="250" r="30"/><circle cx="776" cy="250" r="30"/>
+        <circle cx="356" cy="370" r="30"/><circle cx="496" cy="370" r="30"/>
+        <circle cx="636" cy="370" r="30"/><circle cx="776" cy="370" r="30"/>
+        <circle cx="356" cy="490" r="30"/><circle cx="496" cy="490" r="30"/>
+        <circle cx="636" cy="490" r="30"/><circle cx="776" cy="490" r="30"/>
+      </g>
+      <g font-size="10.5" fill="#aab5be" text-anchor="middle">
+        <text x="356" y="254">01</text><text x="496" y="254">02</text><text x="636" y="254">03</text><text x="776" y="254">04</text>
+        <text x="356" y="374">05</text><text x="496" y="374">06</text><text x="636" y="374">07</text><text x="776" y="374">08</text>
+        <text x="356" y="494">09</text><text x="496" y="494">10</text><text x="636" y="494">11</text><text x="776" y="494">12</text>
+      </g>
+      <text x="300" y="200" font-size="9.5" letter-spacing="1.4" fill="#55636e">LANDING PADS 01&#8211;12, GRAVITIC CLAMP EQUIPPED</text>
+    </g>
+
+    <!-- traffic lanes -->
+    <line x1="140" y1="250" x2="290" y2="250" stroke="#4f8a76" stroke-width="2.4" marker-end="url(#hb-in)"/>
+    <line x1="252" y1="206" x2="252" y2="534" stroke="#4f8a76" stroke-width="2" stroke-dasharray="9 6"/>
+    <text x="150" y="240" font-size="10" letter-spacing="1.4" fill="#4f8a76">INBOUND LANE A</text>
+    <line x1="290" y1="560" x2="140" y2="560" stroke="#8f9ba6" stroke-width="2.4" marker-end="url(#hb-out)"/>
+    <text x="152" y="552" font-size="10" letter-spacing="1.4" fill="#8f9ba6">OUTBOUND LANE B</text>
+    <line x1="270" y1="560" x2="852" y2="560" stroke="#8f9ba6" stroke-width="2" stroke-dasharray="9 6"/>
+
+    <!-- cargo lane to freight lifts -->
+    <line x1="852" y1="300" x2="852" y2="206" stroke="#c8901f" stroke-width="2" stroke-dasharray="8 5"/>
+    <line x1="852" y1="440" x2="852" y2="534" stroke="#c8901f" stroke-width="2" stroke-dasharray="8 5"/>
+    <line x1="852" y1="370" x2="906" y2="370" stroke="#c8901f" stroke-width="2.4" marker-end="url(#hb-cgo)"/>
+
+    <!-- freight lift bank + boundary control point -->
+    <rect x="912" y="330" width="86" height="80" fill="#131a20" stroke="#c8901f" stroke-width="1.4"/>
+    <text x="955" y="360" font-size="10" text-anchor="middle" fill="#c8901f">FREIGHT</text>
+    <text x="955" y="374" font-size="10" text-anchor="middle" fill="#c8901f">LIFT BANK</text>
+    <text x="955" y="392" font-size="9" text-anchor="middle" fill="#7d8b96">FL-04A/B</text>
+
+    <rect x="882" y="230" width="16" height="60" fill="#0b0e11" stroke="#c8901f" stroke-width="1.8"/>
+    <text x="906" y="252" font-size="10" fill="#c8901f">BCP-4/3</text>
+    <text x="906" y="268" font-size="9" fill="#7d8b96">Z4 &#8594; Z3 personnel</text>
+
+    <!-- traffic control -->
+    <rect x="690" y="96" width="198" height="42" fill="#131a20" stroke="#8f9ba6" stroke-width="1.4"/>
+    <text x="789" y="116" font-size="11" text-anchor="middle">BAY TRAFFIC CONTROL</text>
+    <text x="789" y="130" font-size="9" text-anchor="middle" fill="#7d8b96">BTC-04 &#183; DS1-ENG-040</text>
+    <line x1="789" y1="138" x2="789" y2="152" stroke="#5c6b78" stroke-width="1.2"/>
+
+    <!-- section marks -->
+    <text x="70" y="640" font-size="10" fill="#55636e">A</text>
+    <line x1="70" y1="646" x2="70" y2="150" stroke="#3a4753" stroke-width="1" stroke-dasharray="12 6"/>
+
+    <!-- ============ LEGEND ============ -->
+    <text x="1040" y="130" font-size="11" letter-spacing="3" fill="#8f9ba6">LEGEND</text>
+    <line x1="1040" y1="140" x2="1350" y2="140" stroke="#4a5a67"/>
+    <g font-size="11.5">
+      <line x1="1042" y1="164" x2="1074" y2="164" stroke="#4f8a76" stroke-width="2.4"/>
+      <text x="1086" y="168">Inbound flight lane</text>
+      <line x1="1042" y1="192" x2="1074" y2="192" stroke="#8f9ba6" stroke-width="2.4"/>
+      <text x="1086" y="196">Outbound flight lane</text>
+      <line x1="1042" y1="220" x2="1074" y2="220" stroke="#c8901f" stroke-width="2.4"/>
+      <text x="1086" y="224">Cargo / ordnance movement</text>
+      <rect x="1042" y="240" width="32" height="14" fill="url(#hb-field)" stroke="#3f6f80" stroke-width="1.2"/>
+      <text x="1086" y="252">Atmospheric containment field</text>
+      <rect x="1042" y="268" width="32" height="14" fill="url(#hb-haz)" stroke="#c8901f" stroke-width="1.2"/>
+      <text x="1086" y="280">Hazard-controlled area</text>
+      <rect x="1050" y="296" width="16" height="16" fill="#0b0e11" stroke="#c8901f" stroke-width="1.8"/>
+      <text x="1086" y="309">Boundary Control Point</text>
+    </g>
+
+    <text x="1040" y="356" font-size="11" letter-spacing="3" fill="#8f9ba6">OPERATING RULES</text>
+    <line x1="1040" y1="366" x2="1350" y2="366" stroke="#4a5a67"/>
+    <g font-size="11" fill="#aab5be">
+      <text x="1040" y="390">1. Inbound and outbound lanes are never</text>
+      <text x="1040" y="408">   co-active on the same axis.</text>
+      <text x="1040" y="430">2. Personnel egress to Zone Z3 is only via</text>
+      <text x="1040" y="448">   BCP-4/3. Direct pad-to-lift transit is</text>
+      <text x="1040" y="466">   mechanically prevented.</text>
+      <text x="1040" y="488">3. Containment field loss triggers automatic</text>
+      <text x="1040" y="506">   blast-door closure. Door closure is not</text>
+      <text x="1040" y="524">   inhibitable from the bay.</text>
+    </g>
+
+    <!-- title block -->
+    <rect x="1040" y="556" width="312" height="180" fill="#0d1318" stroke="#4a5a67"/>
+    <line x1="1040" y1="602" x2="1352" y2="602" stroke="#4a5a67"/>
+    <line x1="1040" y1="676" x2="1352" y2="676" stroke="#4a5a67"/>
+    <text x="1054" y="586" font-size="12" letter-spacing="2" fill="#c6d0d8">IMPERIAL ENG. DIRECTORATE</text>
+    <text x="1054" y="626" font-size="10" letter-spacing="2" fill="#55636e">DRAWING</text>
+    <text x="1054" y="646" font-size="13">DS1-DRG-005</text>
+    <text x="1054" y="666" font-size="10.5" fill="#7d8b96">Typical Hangar Bay &#8212; Plan</text>
+    <text x="1054" y="700" font-size="10" letter-spacing="2" fill="#55636e">REV / SCALE</text>
+    <text x="1054" y="720" font-size="13">4.2 / NTS</text>
+    <text x="1200" y="720" font-size="11" letter-spacing="2" fill="#a83c33">IMPERIAL RESTRICTED</text>
+  </g>
+</svg>

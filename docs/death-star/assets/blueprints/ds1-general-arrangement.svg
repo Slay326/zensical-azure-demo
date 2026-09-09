@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 840" role="img"
+     aria-label="DS-1 general arrangement, sectional elevation, with numbered callouts">
+  <title>DS1-DRG-001 — DS-1 General Arrangement, Sectional Elevation</title>
+  <defs>
+    <pattern id="ga-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#161d24" stroke-width="1"/>
+    </pattern>
+    <pattern id="ga-grid-fine" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M8 0H0V8" fill="none" stroke="#111820" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="ga-hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#31404c" stroke-width="1.4"/>
+    </pattern>
+    <clipPath id="ga-hull"><circle cx="500" cy="400" r="300"/></clipPath>
+  </defs>
+
+  <rect width="1400" height="840" fill="#0b0e11"/>
+  <rect width="1400" height="840" fill="url(#ga-grid-fine)"/>
+  <rect width="1400" height="840" fill="url(#ga-grid)"/>
+  <rect x="16" y="16" width="1368" height="808" fill="none" stroke="#2a343d" stroke-width="1"/>
+
+  <g font-family="ui-monospace, Menlo, monospace" fill="#7d8b96">
+
+    <!-- ============ STATION SECTION ============ -->
+    <g clip-path="url(#ga-hull)">
+      <!-- radial primary power trunks -->
+      <g stroke="#2f3d48" stroke-width="1.6" stroke-dasharray="6 4">
+        <line x1="500" y1="400" x2="500" y2="100"/><line x1="500" y1="400" x2="500" y2="700"/>
+        <line x1="500" y1="400" x2="200" y2="400"/><line x1="500" y1="400" x2="800" y2="400"/>
+        <line x1="500" y1="400" x2="712" y2="188"/><line x1="500" y1="400" x2="288" y2="612"/>
+        <line x1="500" y1="400" x2="288" y2="188"/><line x1="500" y1="400" x2="712" y2="612"/>
+        <line x1="500" y1="400" x2="650" y2="140"/><line x1="500" y1="400" x2="350" y2="660"/>
+        <line x1="500" y1="400" x2="350" y2="140"/><line x1="500" y1="400" x2="650" y2="660"/>
+        <line x1="500" y1="400" x2="760" y2="250"/><line x1="500" y1="400" x2="240" y2="550"/>
+        <line x1="500" y1="400" x2="240" y2="250"/><line x1="500" y1="400" x2="760" y2="550"/>
+      </g>
+      <!-- zone rings -->
+      <circle cx="500" cy="400" r="250" fill="none" stroke="#3a4753" stroke-width="1"/>
+      <circle cx="500" cy="400" r="195" fill="none" stroke="#3a4753" stroke-width="1" stroke-dasharray="3 5"/>
+      <circle cx="500" cy="400" r="130" fill="none" stroke="#3a4753" stroke-width="1"/>
+      <circle cx="500" cy="400" r="62"  fill="none" stroke="#8a3a34" stroke-width="1.4"/>
+      <text x="512" y="272" font-size="11" letter-spacing="1.5" fill="#55636e">Z1</text>
+      <text x="512" y="207" font-size="11" letter-spacing="1.5" fill="#55636e">Z2</text>
+      <text x="512" y="153" font-size="11" letter-spacing="1.5" fill="#55636e">Z3</text>
+      <text x="512" y="470" font-size="11" letter-spacing="1.5" fill="#8a3a34">Z0</text>
+      <!-- equatorial trench -->
+      <rect x="200" y="386" width="600" height="28" fill="#0f151a" stroke="#4a5a67" stroke-width="1.2"/>
+      <line x1="200" y1="400" x2="800" y2="400" stroke="#2f3d48" stroke-width="0.8" stroke-dasharray="10 6"/>
+      <!-- hangar bays on the trench -->
+      <g fill="#182129" stroke="#5c6b78" stroke-width="1">
+        <rect x="236" y="389" width="26" height="22"/><rect x="278" y="389" width="26" height="22"/>
+        <rect x="320" y="389" width="26" height="22"/><rect x="654" y="389" width="26" height="22"/>
+        <rect x="696" y="389" width="26" height="22"/><rect x="738" y="389" width="26" height="22"/>
+      </g>
+      <!-- reactor containment -->
+      <circle cx="500" cy="400" r="45" fill="url(#ga-hatch)" stroke="#a83c33" stroke-width="1.6"/>
+      <circle cx="500" cy="400" r="18" fill="none" stroke="#a83c33" stroke-width="1"/>
+      <!-- sublight drive cluster, southern array -->
+      <g fill="#141b22" stroke="#5c6b78" stroke-width="1.2">
+        <rect x="404" y="640" width="34" height="46"/><rect x="446" y="654" width="34" height="46"/>
+        <rect x="520" y="654" width="34" height="46"/><rect x="562" y="640" width="34" height="46"/>
+      </g>
+      <!-- hyperdrive bay -->
+      <rect x="300" y="588" width="86" height="52" fill="#141b22" stroke="#5c6b78" stroke-width="1.2"/>
+      <line x1="300" y1="614" x2="386" y2="614" stroke="#3a4753" stroke-width="1"/>
+      <!-- deck stack indication, northern hemisphere -->
+      <g stroke="#232d36" stroke-width="1">
+        <path d="M330 250 A 240 240 0 0 1 670 250" fill="none"/>
+        <path d="M348 288 A 200 200 0 0 1 652 288" fill="none"/>
+        <path d="M368 326 A 165 165 0 0 1 632 326" fill="none"/>
+      </g>
+    </g>
+
+    <!-- hull -->
+    <circle cx="500" cy="400" r="300" fill="none" stroke="#8f9ba6" stroke-width="2.2"/>
+    <circle cx="500" cy="400" r="292" fill="none" stroke="#3a4753" stroke-width="1"/>
+
+    <!-- primary emission aperture (northern hemisphere) -->
+    <g transform="translate(300,196)">
+      <circle r="76" fill="#0d1318" stroke="#8f9ba6" stroke-width="1.8"/>
+      <circle r="60" fill="none" stroke="#3a4753" stroke-width="1" stroke-dasharray="4 4"/>
+      <circle r="26" fill="#161d24" stroke="#a83c33" stroke-width="1.6"/>
+      <g fill="none" stroke="#5c6b78" stroke-width="1.2">
+        <circle cx="0"   cy="-48" r="10"/><circle cx="34"  cy="-34" r="10"/>
+        <circle cx="48"  cy="0"   r="10"/><circle cx="34"  cy="34"  r="10"/>
+        <circle cx="0"   cy="48"  r="10"/><circle cx="-34" cy="34"  r="10"/>
+        <circle cx="-48" cy="0"   r="10"/><circle cx="-34" cy="-34" r="10"/>
+      </g>
+    </g>
+    <line x1="300" y1="196" x2="96" y2="0" stroke="#8a3a34" stroke-width="1" stroke-dasharray="12 6"/>
+    <text x="120" y="44" font-size="10" letter-spacing="1.8" fill="#8a3a34"
+          transform="rotate(-44 120 44)">PRIMARY EMISSION AXIS — REF ONLY</text>
+
+    <!-- northern command tower -->
+    <g fill="#141b22" stroke="#8f9ba6" stroke-width="1.4">
+      <rect x="470" y="76" width="60" height="30"/>
+      <rect x="484" y="58" width="32" height="18"/>
+    </g>
+    <line x1="500" y1="58" x2="500" y2="38" stroke="#5c6b78" stroke-width="1"/>
+
+    <!-- long range sensor blister -->
+    <g transform="translate(704,206)">
+      <circle r="24" fill="#0d1318" stroke="#8f9ba6" stroke-width="1.4"/>
+      <path d="M-24 0 A 24 24 0 0 1 24 0" fill="none" stroke="#5c6b78" stroke-width="1"/>
+      <line x1="0" y1="-24" x2="0" y2="24" stroke="#5c6b78" stroke-width="1"/>
+    </g>
+
+    <!-- axis + scale annotations -->
+    <g stroke="#232d36" stroke-width="1" stroke-dasharray="14 8">
+      <line x1="500" y1="60" x2="500" y2="740"/>
+      <line x1="160" y1="400" x2="840" y2="400"/>
+    </g>
+    <text x="504" y="756" font-size="10" letter-spacing="1.4" fill="#55636e">POLAR AXIS</text>
+    <text x="164" y="392" font-size="10" letter-spacing="1.4" fill="#55636e">EQUATORIAL PLANE</text>
+
+    <!-- ============ CALLOUTS ============ -->
+    <g stroke="#4a5a67" stroke-width="0.9" fill="none">
+      <polyline points="500,50   840,50   876,116"/>
+      <polyline points="300,196  842,152  876,152"/>
+      <polyline points="704,206  842,188  876,188"/>
+      <polyline points="772,320  842,224  876,224"/>
+      <polyline points="690,400  842,260  876,260"/>
+      <polyline points="291,400  842,296  876,296"/>
+      <polyline points="500,400  842,332  876,332"/>
+      <polyline points="614,300  842,368  876,368"/>
+      <polyline points="370,530  842,404  876,404"/>
+      <polyline points="646,540  842,440  876,440"/>
+      <polyline points="500,668  842,476  876,476"/>
+      <polyline points="343,614  842,512  876,512"/>
+    </g>
+    <g fill="#0b0e11" stroke="#8f9ba6" stroke-width="1.2">
+      <circle cx="500" cy="50"  r="11"/><circle cx="300" cy="196" r="11"/>
+      <circle cx="704" cy="206" r="11"/><circle cx="772" cy="320" r="11"/>
+      <circle cx="690" cy="400" r="11"/><circle cx="291" cy="400" r="11"/>
+      <circle cx="500" cy="400" r="11"/><circle cx="614" cy="300" r="11"/>
+      <circle cx="370" cy="530" r="11"/><circle cx="646" cy="540" r="11"/>
+      <circle cx="500" cy="668" r="11"/><circle cx="343" cy="614" r="11"/>
+    </g>
+    <g font-size="11" fill="#c6d0d8" text-anchor="middle" font-weight="700">
+      <text x="500" y="54">1</text><text x="300" y="200">2</text><text x="704" y="210">3</text>
+      <text x="772" y="324">4</text><text x="690" y="404">5</text><text x="291" y="404">6</text>
+      <text x="500" y="404">7</text><text x="614" y="304">8</text><text x="370" y="534">9</text>
+      <text x="646" y="544">10</text><text x="500" y="672">11</text><text x="343" y="618">12</text>
+    </g>
+
+    <!-- ============ LEGEND ============ -->
+    <line x1="876" y1="86" x2="1376" y2="86" stroke="#4a5a67" stroke-width="1"/>
+    <text x="876" y="74" font-size="11" letter-spacing="3" fill="#8f9ba6">KEY TO CALLOUTS</text>
+    <g font-size="13" fill="#aab5be">
+      <text x="886" y="120"> 1  Northern Command Tower / Overbridge <tspan fill="#55636e">DS1-ENG-010</tspan></text>
+      <text x="886" y="156"> 2  Primary Emission Aperture, tributary array <tspan fill="#55636e">DS1-ENG-110</tspan></text>
+      <text x="886" y="192"> 3  Long-Range Sensor Blister (1 of 24) <tspan fill="#55636e">DS1-ENG-060</tspan></text>
+      <text x="886" y="228"> 4  Ablative Hull Plating, Zone Z4 <tspan fill="#55636e">DS1-ENG-120</tspan></text>
+      <text x="886" y="264"> 5  Equatorial Trench / Docking Belt <tspan fill="#55636e">DS1-ENG-040</tspan></text>
+      <text x="886" y="300"> 6  Main Hangar Bay Cluster (port) <tspan fill="#55636e">DS1-ENG-040</tspan></text>
+      <text x="886" y="336"> 7  Reactor Containment Volume, Zone Z0 <tspan fill="#55636e">DS1-ENG-020</tspan></text>
+      <text x="886" y="372"> 8  Primary Power Trunk, radial (16 off) <tspan fill="#55636e">DS1-ENG-021</tspan></text>
+      <text x="886" y="408"> 9  Sector Control Node Ring, Zone Z2 <tspan fill="#55636e">DS1-ENG-011</tspan></text>
+      <text x="886" y="444">10  Habitation &amp; Garrison Decks, Zone Z3 <tspan fill="#55636e">DS1-ENG-100</tspan></text>
+      <text x="886" y="480">11  Sublight Drive Cluster, southern array <tspan fill="#55636e">DS1-ENG-031</tspan></text>
+      <text x="886" y="516">12  Hyperdrive Bay, ventral <tspan fill="#55636e">DS1-ENG-030</tspan></text>
+    </g>
+
+    <!-- ============ TITLE BLOCK ============ -->
+    <g>
+      <rect x="876" y="576" width="500" height="200" fill="#0d1318" stroke="#4a5a67" stroke-width="1"/>
+      <line x1="876" y1="622" x2="1376" y2="622" stroke="#4a5a67" stroke-width="1"/>
+      <line x1="876" y1="700" x2="1376" y2="700" stroke="#4a5a67" stroke-width="1"/>
+      <line x1="1126" y1="622" x2="1126" y2="700" stroke="#4a5a67" stroke-width="1"/>
+      <text x="890" y="606" font-size="13" letter-spacing="2.4" fill="#c6d0d8">IMPERIAL ENGINEERING DIRECTORATE</text>
+      <text x="890" y="646" font-size="10" letter-spacing="2" fill="#55636e">DRAWING</text>
+      <text x="890" y="666" font-size="13" fill="#aab5be">DS1-DRG-001</text>
+      <text x="890" y="688" font-size="11" fill="#7d8b96">General Arrangement — Sectional Elevation</text>
+      <text x="1140" y="646" font-size="10" letter-spacing="2" fill="#55636e">REV / SCALE</text>
+      <text x="1140" y="666" font-size="13" fill="#aab5be">4.2 / NTS</text>
+      <text x="1140" y="688" font-size="11" fill="#7d8b96">Projection: sectional, polar</text>
+      <text x="890" y="724" font-size="10" letter-spacing="2" fill="#55636e">SYSTEM</text>
+      <text x="890" y="742" font-size="12" fill="#aab5be">DS-1 Orbital Battle Station</text>
+      <text x="890" y="764" font-size="12" letter-spacing="2.6" fill="#a83c33">IMPERIAL RESTRICTED</text>
+    </g>
+  </g>
+</svg>

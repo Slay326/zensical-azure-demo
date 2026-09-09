@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json.schemastore.org/staticwebapp.config.json",
+
+  "//": "DS-1 access control. The entire controlled library resolves under one",
+  "// ": "prefix, so one rule protects all of it. Do not add exceptions --- see",
+  "//  ": "docs/death-star/security/publication-and-access-control.md",
+
+  "routes": [
+    {
+      "route": "/death-star",
+      "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/death-star/*",
+      "allowedRoles": ["authenticated"]
+    }
+  ],
+
+  "responseOverrides": {
+    "401": {
+      "statusCode": 302,
+      "redirect": "/.auth/login/aad?post_login_redirect_uri=.referrer"
+    }
+  },
+
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "no-referrer"
+  },
+
+  "mimeTypes": {
+    ".svg": "image/svg+xml",
+    ".json": "application/json"
+  }
+}

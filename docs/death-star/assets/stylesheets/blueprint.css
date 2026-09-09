@@ -1,0 +1,90 @@
+/* DS-1 drawing presentation. Published only inside /death-star/assets/. */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0c151e;
+  --md-default-fg-color: #d5e5ec;
+  --md-default-fg-color--light: #a7bdca;
+  --md-default-fg-color--lighter: #648292;
+  --md-default-fg-color--lightest: #273c4a;
+  --md-primary-fg-color: #09131c;
+  --md-accent-fg-color: #d8976b;
+  --md-typeset-a-color: #9bc6db;
+  --md-code-bg-color: #101f2b;
+  --md-mermaid-node-bg-color: #101f2b;
+  --md-mermaid-node-fg-color: #799daf;
+  --md-mermaid-label-bg-color: #09131c;
+  --md-mermaid-label-fg-color: #d5e5ec;
+  --md-mermaid-edge-color: #a4c5d4;
+}
+
+.md-grid { max-width: 86rem; }
+.md-typeset { line-height: 1.7; }
+.md-typeset h1 { border-bottom-width: 1px; }
+.md-typeset h2 { margin-top: 2.4rem; }
+.md-typeset .blueprint {
+  width: 100%;
+  max-width: 100%;
+  margin: 1.5rem 0;
+  background: #09131c;
+  border: 1px solid #466273;
+  overflow-x: auto;
+  text-align: left;
+}
+.md-typeset .blueprint > p { margin: 0; padding: 0; border: 0; }
+.md-typeset .blueprint img { min-width: 42rem; }
+.md-typeset .blueprint > figcaption {
+  padding: .75rem 1rem;
+  color: #a7bdca;
+  font-size: .62rem;
+  line-height: 1.6;
+  text-transform: none;
+  letter-spacing: .02em;
+}
+.md-typeset .blueprint a:focus-visible {
+  display: block;
+  outline: 2px solid #d8976b;
+  outline-offset: -3px;
+}
+.md-typeset .mermaid {
+  background-color: #09131c;
+  background-image:
+    linear-gradient(#243b4938 1px, transparent 1px),
+    linear-gradient(90deg, #243b4938 1px, transparent 1px);
+  background-size: 20px 20px;
+  border: 1px solid #466273;
+  padding: 1rem;
+  margin: 1.4rem 0;
+  overflow-x: auto;
+}
+.md-typeset .mermaid svg { display: block; margin: auto; }
+.md-typeset .visual-callout {
+  max-width: 44rem;
+  margin: 1.25rem 0 1.7rem;
+  padding: .9rem 1rem;
+  border: 1px solid #466273;
+  border-left: 3px solid #d8976b;
+  background: #101f2b;
+}
+.md-typeset .visual-callout > p:first-child {
+  margin-top: 0;
+  color: #b8d4e2;
+  font: 600 .7rem/1.5 var(--imp-mono);
+  letter-spacing: .04em;
+}
+.md-typeset .visual-callout .mermaid { margin: .7rem 0; }
+.md-typeset .visual-callout > p:last-child {
+  margin-bottom: 0;
+  color: #a7bdca;
+  font-size: .72rem;
+}
+@media (min-width: 76.25em) {
+  .md-typeset .visual-callout { width: 85%; }
+}
+@media (max-width: 44.99em) {
+  .md-typeset .visual-callout { padding: .7rem; }
+  .md-typeset .blueprint img { min-width: 38rem; }
+  .md-typeset .mermaid { padding: .5rem; }
+}
+@media print {
+  .md-typeset .blueprint img { min-width: 0; }
+  .md-typeset .blueprint, .md-typeset .visual-callout { break-inside: avoid; }
+}

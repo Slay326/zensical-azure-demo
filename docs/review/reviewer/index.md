@@ -1,5 +1,13 @@
 # How to do a code review
 
+```mermaid
+flowchart LR
+    D["Understand purpose"] --> A["Assess design"] --> B["Inspect behavior and tests"]
+    B --> C["Write specific comments"] --> S["Apply the review standard"]
+```
+
+Start with the change's purpose and design before spending time on local details.
+
 The pages in this section contain recommendations on the best way to do code
 reviews, based on long experience. All together they represent one complete
 document, broken up into many separate sections. You don't have to read them

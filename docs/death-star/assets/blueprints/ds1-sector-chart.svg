@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" role="img" aria-label="DS-1 developed surface sector chart with 72 addressable surface sectors">
+  <title>DS1-DRG-003 — Surface Sector Nomenclature Chart</title>
+  <defs><pattern id="sg-grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#161d24" stroke-width="1"/></pattern></defs>
+  <rect width="1400" height="800" fill="#0b0e11"/>
+  <rect width="1400" height="800" fill="url(#sg-grid)"/>
+  <rect x="16" y="16" width="1368" height="768" fill="none" stroke="#2a343d"/>
+  <g font-family="ui-monospace, Menlo, monospace">
+    <text x="100" y="70" font-size="16" letter-spacing="3.4" fill="#c6d0d8">DEVELOPED SURFACE SECTOR CHART — EQUIRECTANGULAR PROJECTION</text>
+    <text x="100" y="96" font-size="12" letter-spacing="2" fill="#7d8b96">72 addressable surface sectors. Designation: &lt;BAND&gt;-&lt;MERIDIAN&gt;. Meridian index increments 030 degrees eastward from the prime reference meridian.</text>
+    <rect x="100" y="150" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="108" y="170" font-size="12" fill="#aab5be">N3-000</text>
+    <rect x="200" y="150" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="208" y="170" font-size="12" fill="#aab5be">N3-030</text>
+    <rect x="300" y="150" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="308" y="170" font-size="12" fill="#aab5be">N3-060</text>
+    <rect x="400" y="150" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="408" y="170" font-size="12" fill="#aab5be">N3-090</text>
+    <rect x="500" y="150" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="508" y="170" font-size="12" fill="#aab5be">N3-120</text>
+    <rect x="600" y="150" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="608" y="170" font-size="12" fill="#aab5be">N3-150</text>
+    <rect x="700" y="150" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="708" y="170" font-size="12" fill="#aab5be">N3-180</text>
+    <rect x="800" y="150" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="808" y="170" font-size="12" fill="#aab5be">N3-210</text>
+    <rect x="900" y="150" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="908" y="170" font-size="12" fill="#aab5be">N3-240</text>
+    <rect x="1000" y="150" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="1008" y="170" font-size="12" fill="#aab5be">N3-270</text>
+    <rect x="1100" y="150" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="1108" y="170" font-size="12" fill="#aab5be">N3-300</text>
+    <rect x="1200" y="150" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="1208" y="170" font-size="12" fill="#aab5be">N3-330</text>
+    <rect x="100" y="216" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="108" y="236" font-size="12" fill="#aab5be">N2-000</text>
+    <rect x="200" y="216" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="208" y="236" font-size="12" fill="#aab5be">N2-030</text>
+    <rect x="300" y="216" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="308" y="236" font-size="12" fill="#aab5be">N2-060</text>
+    <rect x="400" y="216" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="408" y="236" font-size="12" fill="#aab5be">N2-090</text>
+    <rect x="500" y="216" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="508" y="236" font-size="12" fill="#aab5be">N2-120</text>
+    <rect x="600" y="216" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="608" y="236" font-size="12" fill="#aab5be">N2-150</text>
+    <rect x="700" y="216" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="708" y="236" font-size="12" fill="#aab5be">N2-180</text>
+    <rect x="800" y="216" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="808" y="236" font-size="12" fill="#aab5be">N2-210</text>
+    <rect x="900" y="216" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="908" y="236" font-size="12" fill="#aab5be">N2-240</text>
+    <rect x="1000" y="216" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="1008" y="236" font-size="12" fill="#aab5be">N2-270</text>
+    <rect x="1100" y="216" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="1108" y="236" font-size="12" fill="#aab5be">N2-300</text>
+    <rect x="1200" y="216" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="1208" y="236" font-size="12" fill="#aab5be">N2-330</text>
+    <rect x="100" y="282" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="108" y="302" font-size="12" fill="#aab5be">N1-000</text>
+    <rect x="200" y="282" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="208" y="302" font-size="12" fill="#aab5be">N1-030</text>
+    <rect x="300" y="282" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="308" y="302" font-size="12" fill="#aab5be">N1-060</text>
+    <rect x="400" y="282" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="408" y="302" font-size="12" fill="#aab5be">N1-090</text>
+    <rect x="500" y="282" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="508" y="302" font-size="12" fill="#aab5be">N1-120</text>
+    <rect x="600" y="282" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="608" y="302" font-size="12" fill="#aab5be">N1-150</text>
+    <rect x="700" y="282" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="708" y="302" font-size="12" fill="#aab5be">N1-180</text>
+    <rect x="800" y="282" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="808" y="302" font-size="12" fill="#aab5be">N1-210</text>
+    <rect x="900" y="282" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="908" y="302" font-size="12" fill="#aab5be">N1-240</text>
+    <rect x="1000" y="282" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="1008" y="302" font-size="12" fill="#aab5be">N1-270</text>
+    <rect x="1100" y="282" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="1108" y="302" font-size="12" fill="#aab5be">N1-300</text>
+    <rect x="1200" y="282" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="1208" y="302" font-size="12" fill="#aab5be">N1-330</text>
+    <rect x="100" y="348" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="108" y="368" font-size="12" fill="#aab5be">S1-000</text>
+    <rect x="200" y="348" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="208" y="368" font-size="12" fill="#aab5be">S1-030</text>
+    <rect x="300" y="348" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="308" y="368" font-size="12" fill="#aab5be">S1-060</text>
+    <rect x="400" y="348" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="408" y="368" font-size="12" fill="#aab5be">S1-090</text>
+    <rect x="500" y="348" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="508" y="368" font-size="12" fill="#aab5be">S1-120</text>
+    <rect x="600" y="348" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="608" y="368" font-size="12" fill="#aab5be">S1-150</text>
+    <rect x="700" y="348" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="708" y="368" font-size="12" fill="#aab5be">S1-180</text>
+    <rect x="800" y="348" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="808" y="368" font-size="12" fill="#aab5be">S1-210</text>
+    <rect x="900" y="348" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="908" y="368" font-size="12" fill="#aab5be">S1-240</text>
+    <rect x="1000" y="348" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="1008" y="368" font-size="12" fill="#aab5be">S1-270</text>
+    <rect x="1100" y="348" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="1108" y="368" font-size="12" fill="#aab5be">S1-300</text>
+    <rect x="1200" y="348" width="100" height="66" fill="#141d25" stroke="#2a343d" stroke-width="1"/>
+    <text x="1208" y="368" font-size="12" fill="#aab5be">S1-330</text>
+    <rect x="100" y="414" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="108" y="434" font-size="12" fill="#aab5be">S2-000</text>
+    <rect x="200" y="414" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="208" y="434" font-size="12" fill="#aab5be">S2-030</text>
+    <rect x="300" y="414" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="308" y="434" font-size="12" fill="#aab5be">S2-060</text>
+    <rect x="400" y="414" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="408" y="434" font-size="12" fill="#aab5be">S2-090</text>
+    <rect x="500" y="414" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="508" y="434" font-size="12" fill="#aab5be">S2-120</text>
+    <rect x="600" y="414" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="608" y="434" font-size="12" fill="#aab5be">S2-150</text>
+    <rect x="700" y="414" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="708" y="434" font-size="12" fill="#aab5be">S2-180</text>
+    <rect x="800" y="414" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="808" y="434" font-size="12" fill="#aab5be">S2-210</text>
+    <rect x="900" y="414" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="908" y="434" font-size="12" fill="#aab5be">S2-240</text>
+    <rect x="1000" y="414" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="1008" y="434" font-size="12" fill="#aab5be">S2-270</text>
+    <rect x="1100" y="414" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="1108" y="434" font-size="12" fill="#aab5be">S2-300</text>
+    <rect x="1200" y="414" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="1208" y="434" font-size="12" fill="#aab5be">S2-330</text>
+    <rect x="100" y="480" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="108" y="500" font-size="12" fill="#aab5be">S3-000</text>
+    <rect x="200" y="480" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="208" y="500" font-size="12" fill="#aab5be">S3-030</text>
+    <rect x="300" y="480" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="308" y="500" font-size="12" fill="#aab5be">S3-060</text>
+    <rect x="400" y="480" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="408" y="500" font-size="12" fill="#aab5be">S3-090</text>
+    <rect x="500" y="480" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="508" y="500" font-size="12" fill="#aab5be">S3-120</text>
+    <rect x="600" y="480" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="608" y="500" font-size="12" fill="#aab5be">S3-150</text>
+    <rect x="700" y="480" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="708" y="500" font-size="12" fill="#aab5be">S3-180</text>
+    <rect x="800" y="480" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="808" y="500" font-size="12" fill="#aab5be">S3-210</text>
+    <rect x="900" y="480" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="908" y="500" font-size="12" fill="#aab5be">S3-240</text>
+    <rect x="1000" y="480" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="1008" y="500" font-size="12" fill="#aab5be">S3-270</text>
+    <rect x="1100" y="480" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="1108" y="500" font-size="12" fill="#aab5be">S3-300</text>
+    <rect x="1200" y="480" width="100" height="66" fill="#101820" stroke="#2a343d" stroke-width="1"/>
+    <text x="1208" y="500" font-size="12" fill="#aab5be">S3-330</text>
+    <line x1="100" y1="150" x2="1300" y2="150" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="100" y1="216" x2="1300" y2="216" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="100" y1="282" x2="1300" y2="282" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="100" y1="348" x2="1300" y2="348" stroke="#d0342c" stroke-width="2.2"/>
+    <line x1="100" y1="414" x2="1300" y2="414" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="100" y1="480" x2="1300" y2="480" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="100" y1="546" x2="1300" y2="546" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="100" y1="150" x2="100" y2="546" stroke="#5c6b78" stroke-width="2"/>
+    <line x1="200" y1="150" x2="200" y2="546" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="300" y1="150" x2="300" y2="546" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="400" y1="150" x2="400" y2="546" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="500" y1="150" x2="500" y2="546" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="600" y1="150" x2="600" y2="546" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="700" y1="150" x2="700" y2="546" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="800" y1="150" x2="800" y2="546" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="900" y1="150" x2="900" y2="546" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="1000" y1="150" x2="1000" y2="546" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="1100" y1="150" x2="1100" y2="546" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="1200" y1="150" x2="1200" y2="546" stroke="#5c6b78" stroke-width="1.2"/>
+    <line x1="1300" y1="150" x2="1300" y2="546" stroke="#5c6b78" stroke-width="2"/>
+    <text x="150.0" y="138" font-size="11" letter-spacing="1.4" fill="#7d8b96" text-anchor="middle">000&#176;</text>
+    <text x="250.0" y="138" font-size="11" letter-spacing="1.4" fill="#7d8b96" text-anchor="middle">030&#176;</text>
+    <text x="350.0" y="138" font-size="11" letter-spacing="1.4" fill="#7d8b96" text-anchor="middle">060&#176;</text>
+    <text x="450.0" y="138" font-size="11" letter-spacing="1.4" fill="#7d8b96" text-anchor="middle">090&#176;</text>
+    <text x="550.0" y="138" font-size="11" letter-spacing="1.4" fill="#7d8b96" text-anchor="middle">120&#176;</text>
+    <text x="650.0" y="138" font-size="11" letter-spacing="1.4" fill="#7d8b96" text-anchor="middle">150&#176;</text>
+    <text x="750.0" y="138" font-size="11" letter-spacing="1.4" fill="#7d8b96" text-anchor="middle">180&#176;</text>
+    <text x="850.0" y="138" font-size="11" letter-spacing="1.4" fill="#7d8b96" text-anchor="middle">210&#176;</text>
+    <text x="950.0" y="138" font-size="11" letter-spacing="1.4" fill="#7d8b96" text-anchor="middle">240&#176;</text>
+    <text x="1050.0" y="138" font-size="11" letter-spacing="1.4" fill="#7d8b96" text-anchor="middle">270&#176;</text>
+    <text x="1150.0" y="138" font-size="11" letter-spacing="1.4" fill="#7d8b96" text-anchor="middle">300&#176;</text>
+    <text x="1250.0" y="138" font-size="11" letter-spacing="1.4" fill="#7d8b96" text-anchor="middle">330&#176;</text>
+    <text x="86" y="187.0" font-size="11" fill="#7d8b96" text-anchor="end">+75&#176;</text>
+    <text x="86" y="253.0" font-size="11" fill="#7d8b96" text-anchor="end">+45&#176;</text>
+    <text x="86" y="319.0" font-size="11" fill="#7d8b96" text-anchor="end">+15&#176;</text>
+    <text x="86" y="385.0" font-size="11" fill="#7d8b96" text-anchor="end">-15&#176;</text>
+    <text x="86" y="451.0" font-size="11" fill="#7d8b96" text-anchor="end">-45&#176;</text>
+    <text x="86" y="517.0" font-size="11" fill="#7d8b96" text-anchor="end">-75&#176;</text>
+    <text x="700.0" y="608" font-size="11" letter-spacing="2" fill="#55636e" text-anchor="middle">MERIDIAN — DEGREES EAST OF PRIME REFERENCE</text>
+    <text x="44" y="348.0" font-size="11" letter-spacing="2" fill="#55636e" text-anchor="middle" transform="rotate(-90 44 348.0)">LATITUDE</text>
+    <text x="1310" y="352" font-size="11" letter-spacing="1.6" fill="#d0342c">EQUATORIAL TRENCH</text>
+    <rect x="102" y="152" width="96" height="62" fill="none" stroke="#c8901f" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <text x="150.0" y="204" font-size="8.5" letter-spacing="0.8" fill="#c8901f" text-anchor="middle">OVERBRIDGE</text>
+    <rect x="302" y="218" width="96" height="62" fill="none" stroke="#d0342c" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <text x="350.0" y="270" font-size="8.5" letter-spacing="0.8" fill="#d0342c" text-anchor="middle">APERTURE</text>
+    <rect x="402" y="284" width="96" height="62" fill="none" stroke="#4f8a76" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <text x="450.0" y="336" font-size="8.5" letter-spacing="0.8" fill="#4f8a76" text-anchor="middle">SENSOR MAST</text>
+    <rect x="1002" y="284" width="96" height="62" fill="none" stroke="#4f8a76" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <text x="1050.0" y="336" font-size="8.5" letter-spacing="0.8" fill="#4f8a76" text-anchor="middle">SENSOR MAST</text>
+    <rect x="202" y="350" width="96" height="62" fill="none" stroke="#8f9ba6" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <text x="250.0" y="402" font-size="8.5" letter-spacing="0.8" fill="#8f9ba6" text-anchor="middle">HANGAR CLUSTER A</text>
+    <rect x="602" y="350" width="96" height="62" fill="none" stroke="#8f9ba6" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <text x="650.0" y="402" font-size="8.5" letter-spacing="0.8" fill="#8f9ba6" text-anchor="middle">HANGAR CLUSTER B</text>
+    <rect x="902" y="350" width="96" height="62" fill="none" stroke="#8f9ba6" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <text x="950.0" y="402" font-size="8.5" letter-spacing="0.8" fill="#8f9ba6" text-anchor="middle">HANGAR CLUSTER C</text>
+    <rect x="1202" y="350" width="96" height="62" fill="none" stroke="#8f9ba6" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <text x="1250.0" y="402" font-size="8.5" letter-spacing="0.8" fill="#8f9ba6" text-anchor="middle">HANGAR CLUSTER D</text>
+    <rect x="502" y="482" width="96" height="62" fill="none" stroke="#c8901f" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <text x="550.0" y="534" font-size="8.5" letter-spacing="0.8" fill="#c8901f" text-anchor="middle">DRIVE ARRAY</text>
+    <rect x="802" y="482" width="96" height="62" fill="none" stroke="#c8901f" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <text x="850.0" y="534" font-size="8.5" letter-spacing="0.8" fill="#c8901f" text-anchor="middle">DRIVE ARRAY</text>
+    <text x="100" y="642" font-size="11" letter-spacing="3" fill="#8f9ba6">CHART NOTES</text>
+    <line x1="100" y1="652" x2="700" y2="652" stroke="#4a5a67"/>
+    <text x="100" y="676" font-size="12" fill="#aab5be">1. Sector designations are the sole addressing scheme for hull work orders, damage</text>
+    <text x="100" y="696" font-size="12" fill="#aab5be">   reports, boarding alerts and garrison deployment. Free-text location is rejected.</text>
+    <text x="100" y="716" font-size="12" fill="#aab5be">2. Bands N1 and S1 are trench-adjacent and inherit Zone Z4 perimeter controls.</text>
+    <text x="100" y="736" font-size="12" fill="#aab5be">3. Surface sectors map one-to-one onto Sector Control Nodes (DS1-ENG-011).</text>
+    <rect x="780" y="616" width="580" height="122" fill="#0d1318" stroke="#4a5a67"/>
+    <line x1="780" y1="662" x2="1360" y2="662" stroke="#4a5a67"/>
+    <line x1="1120" y1="662" x2="1120" y2="738" stroke="#4a5a67"/>
+    <text x="794" y="646" font-size="13" letter-spacing="2.4" fill="#c6d0d8">IMPERIAL ENGINEERING DIRECTORATE</text>
+    <text x="794" y="686" font-size="10" letter-spacing="2" fill="#55636e">DRAWING</text>
+    <text x="794" y="706" font-size="13" fill="#aab5be">DS1-DRG-003</text>
+    <text x="794" y="728" font-size="11" fill="#7d8b96">Surface Sector Nomenclature Chart</text>
+    <text x="1134" y="686" font-size="10" letter-spacing="2" fill="#55636e">REV / SCALE</text>
+    <text x="1134" y="706" font-size="13" fill="#aab5be">4.2 / NTS</text>
+    <text x="1134" y="728" font-size="12" letter-spacing="2.4" fill="#a83c33">IMPERIAL RESTRICTED</text>
+  </g>
+</svg>

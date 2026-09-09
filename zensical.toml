@@ -1,4 +1,17 @@
+# Build the deployable site with: python3 scripts/build.py
+# This configuration is applied to the public sources staged by that script.
 [project]
 site_name = "Engineering Practices"
 docs_dir = "docs"
 site_dir = "site"
+extra_css = ["assets/stylesheets/technical.css"]
+
+[project.markdown_extensions]
+attr_list = {}
+md_in_html = {}
+admonition = {}
+tables = {}
+pymdownx.details = {}
+pymdownx.superfences.custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]

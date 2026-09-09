@@ -1,0 +1,335 @@
+/* ==========================================================================
+   Imperial Engineering Directorate — Documentation Presentation Layer
+   Document: DS1-REF-090 (presentation only; contains no controlled content)
+   --------------------------------------------------------------------------
+   Published with the private documentation under /death-star/assets/.
+   The public engineering library carries its own independent stylesheet.
+   ========================================================================== */
+
+:root {
+  --imp-ink:        #0b0e11;
+  --imp-panel:      #11161b;
+  --imp-line:       #2a343d;
+  --imp-grid:       #1b2229;
+  --imp-text:       #c6d0d8;
+  --imp-dim:        #7d8b96;
+  --imp-signal:     #d0342c;  /* restricted / critical */
+  --imp-caution:    #c8901f;  /* caution / degraded    */
+  --imp-nominal:    #4f8a76;  /* nominal / operational */
+  --imp-mono: "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        #0b0e11;
+  --md-accent-fg-color:         #a82a23;
+  --md-typeset-a-color:         #8c231d;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 210;
+  --md-default-bg-color:        #0b0e11;
+  --md-default-fg-color:        #c6d0d8;
+  --md-primary-fg-color:        #0b0e11;
+  --md-accent-fg-color:         #d0342c;
+  --md-typeset-a-color:         #d0342c;
+  --md-code-bg-color:           #12181e;
+}
+
+/* --- Global type: tighten toward a technical publication ----------------- */
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 700;
+  letter-spacing: .01em;
+}
+
+.md-typeset h1 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  border-bottom: 2px solid var(--md-accent-fg-color);
+  padding-bottom: .35rem;
+}
+
+.md-typeset h2 {
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: .2rem;
+  margin-top: 2.2em;
+}
+
+.md-typeset h2 > code,
+.md-typeset h3 > code { font-size: .85em; }
+
+/* --- Document control block --------------------------------------------- */
+
+.doc-control {
+  margin: 0 0 1.6rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-left: 4px solid var(--md-accent-fg-color);
+  background:
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 9px,
+      rgba(127, 127, 127, .045) 9px 18px
+    );
+}
+
+.doc-control > table,
+.doc-control .md-typeset__table,
+.doc-control .md-typeset__table > table {
+  width: 100%;
+  margin: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  display: table !important;
+  font-size: .62rem;
+}
+
+.doc-control table th {
+  font-family: var(--imp-mono);
+  font-size: .55rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+  background: transparent !important;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest) !important;
+  white-space: nowrap;
+  padding: .5em .8em .35em;
+}
+
+.doc-control table td {
+  font-family: var(--imp-mono);
+  font-size: .6rem;
+  line-height: 1.5;
+  border: 0 !important;
+  padding: .5em .8em .6em;
+  vertical-align: top;
+}
+
+.doc-control table tr:hover { background: transparent !important; }
+
+.doc-control > p:last-child {
+  margin: 0;
+  padding: .45em .9em .6em;
+  border-top: 1px dashed var(--md-default-fg-color--lightest);
+  font-family: var(--imp-mono);
+  font-size: .56rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+
+/* --- Classification banner (landing pages) ------------------------------- */
+
+.classification-banner {
+  margin: 0 0 2rem;
+  padding: 1.4rem 1.6rem;
+  border: 1px solid var(--md-accent-fg-color);
+  background: linear-gradient(180deg, rgba(208, 52, 44, .10), transparent 70%);
+  text-align: center;
+}
+
+.classification-banner .cb-system {
+  display: block;
+  font-family: var(--imp-mono);
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.classification-banner .cb-org,
+.classification-banner .cb-kind {
+  display: block;
+  font-family: var(--imp-mono);
+  font-size: .62rem;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+  margin-top: .5rem;
+}
+
+.classification-banner .cb-class {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: .3rem 1rem;
+  border: 1px solid var(--md-accent-fg-color);
+  font-family: var(--imp-mono);
+  font-size: .6rem;
+  font-weight: 700;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--md-accent-fg-color);
+}
+
+.classification-banner .cb-warn {
+  display: block;
+  margin-top: .9rem;
+  font-size: .62rem;
+  letter-spacing: .04em;
+  color: var(--md-default-fg-color--light);
+}
+
+/* --- Blueprint figures ---------------------------------------------------- */
+
+.blueprint {
+  margin: 1.6rem 0;
+  border: 1px solid var(--imp-line);
+  background: var(--imp-ink);
+}
+
+.blueprint img,
+.blueprint svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.blueprint > figcaption,
+.blueprint > p:last-child {
+  margin: 0;
+  padding: .55em .9em;
+  border-top: 1px solid var(--imp-line);
+  font-family: var(--imp-mono);
+  font-size: .58rem;
+  letter-spacing: .06em;
+  color: var(--imp-dim);
+  text-transform: uppercase;
+}
+
+/* --- Mermaid: constrain to the reduced palette ---------------------------- */
+
+.md-typeset .mermaid {
+  margin: 1.4rem 0;
+  padding: .8rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  overflow-x: auto;
+}
+
+/* --- Tables: engineering register look ----------------------------------- */
+
+.md-typeset table:not([class]) {
+  font-size: .66rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+}
+
+.md-typeset table:not([class]) th {
+  font-family: var(--imp-mono);
+  font-size: .58rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  background: var(--md-default-fg-color--lightest);
+}
+
+.md-typeset table:not([class]) td:first-child code {
+  white-space: nowrap;
+}
+
+/* --- Status / severity chips --------------------------------------------- */
+
+.chip {
+  display: inline-block;
+  padding: .05em .5em;
+  border: 1px solid currentcolor;
+  border-radius: 2px;
+  font-family: var(--imp-mono);
+  font-size: .88em;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.chip.critical { color: var(--imp-signal); }
+.chip.high     { color: #c05a1e; }
+.chip.medium   { color: var(--imp-caution); }
+.chip.low      { color: var(--imp-dim); }
+.chip.nominal  { color: var(--imp-nominal); }
+
+/* --- Portal / index grids ------------------------------------------------- */
+
+.reg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: .8rem;
+  margin: 1.4rem 0;
+}
+
+.reg-grid > .reg-card {
+  display: block;
+  padding: .9rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-top: 3px solid var(--md-accent-fg-color);
+  background: var(--md-code-bg-color);
+}
+
+.reg-grid > .reg-card > :first-child { margin-top: 0; }
+.reg-grid > .reg-card > :last-child  { margin-bottom: 0; }
+
+.reg-grid .reg-card h3 {
+  margin: 0 0 .3rem !important;
+  font-family: var(--imp-mono);
+  font-size: .7rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.reg-grid .reg-card p {
+  font-size: .66rem;
+  line-height: 1.55;
+  color: var(--md-default-fg-color--light);
+}
+
+/* --- Footer stamp --------------------------------------------------------- */
+
+.md-footer-meta,
+.md-copyright {
+  font-family: var(--imp-mono);
+  font-size: .55rem;
+  letter-spacing: .06em;
+}
+
+/* --- Mermaid palette: reduced Imperial set -------------------------------- */
+
+[data-md-color-scheme="slate"] {
+  --md-mermaid-font-family:                    "Roboto Mono", ui-monospace, monospace;
+  --md-mermaid-node-bg-color:                  #131a20;
+  --md-mermaid-node-fg-color:                  #3d4a55;
+  --md-mermaid-label-bg-color:                 #131a20;
+  --md-mermaid-label-fg-color:                 #c6d0d8;
+  --md-mermaid-edge-color:                     #5c6b78;
+  --md-mermaid-sequence-actor-bg-color:        #131a20;
+  --md-mermaid-sequence-actor-border-color:    #d0342c;
+  --md-mermaid-sequence-actor-fg-color:        #c6d0d8;
+  --md-mermaid-sequence-actor-line-color:      #3d4a55;
+  --md-mermaid-sequence-actorman-bg-color:     #131a20;
+  --md-mermaid-sequence-actorman-line-color:   #5c6b78;
+  --md-mermaid-sequence-box-bg-color:          #0f151a;
+  --md-mermaid-sequence-box-fg-color:          #c6d0d8;
+  --md-mermaid-sequence-label-bg-color:        #1b2229;
+  --md-mermaid-sequence-label-fg-color:        #c6d0d8;
+  --md-mermaid-sequence-loop-bg-color:         transparent;
+  --md-mermaid-sequence-loop-border-color:     #c8901f;
+  --md-mermaid-sequence-loop-fg-color:         #c8901f;
+  --md-mermaid-sequence-message-fg-color:      #c6d0d8;
+  --md-mermaid-sequence-message-line-color:    #5c6b78;
+  --md-mermaid-sequence-note-bg-color:         #1b2229;
+  --md-mermaid-sequence-note-border-color:     #3d4a55;
+  --md-mermaid-sequence-note-fg-color:         #c6d0d8;
+  --md-mermaid-sequence-number-bg-color:       #d0342c;
+  --md-mermaid-sequence-number-fg-color:       #ffffff;
+}
+
+[data-md-color-scheme="default"] {
+  --md-mermaid-font-family:                    "Roboto Mono", ui-monospace, monospace;
+  --md-mermaid-node-bg-color:                  #f2f4f6;
+  --md-mermaid-node-fg-color:                  #55636e;
+  --md-mermaid-edge-color:                     #55636e;
+  --md-mermaid-sequence-actor-border-color:    #a82a23;
+  --md-mermaid-sequence-loop-border-color:     #8a6410;
+  --md-mermaid-sequence-loop-fg-color:         #8a6410;
+  --md-mermaid-sequence-number-bg-color:       #a82a23;
+}

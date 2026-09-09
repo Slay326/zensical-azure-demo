@@ -1,1 +1,3 @@
 site/
+.docs-build-*/
+__pycache__/

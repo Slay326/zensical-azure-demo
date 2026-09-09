@@ -1,0 +1,12 @@
+/* Shared technical-document conventions for the public engineering library. */
+.md-typeset .mermaid {
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  background-image:
+    linear-gradient(#78909c12 1px, transparent 1px),
+    linear-gradient(90deg, #78909c12 1px, transparent 1px);
+  background-size: 20px 20px;
+  overflow-x: auto;
+}
+.md-typeset .mermaid svg { display: block; margin: auto; }

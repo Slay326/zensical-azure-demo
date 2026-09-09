@@ -25,13 +25,17 @@ jobs:
           python-version: "3.x"
 
       - name: Install Zensical
-        run: pip install zensical
+        run: pip install zensical==0.0.60
 
       - name: Build documentation
-        run: zensical build --clean
+        run: python3 scripts/build.py
 
       - name: Verify build
-        run: test -f site/index.html
+        run: |
+          test -f site/index.html
+          test -f site/death-star/index.html
+          test -f site/death-star/search.json
+          test -f site/staticwebapp.config.json
 
       - name: Deploy to Azure Static Web Apps
         if: github.event_name == 'push'

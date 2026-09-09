@@ -21,6 +21,17 @@ documents that are a part of this guide:
 
 ## What Do Code Reviewers Look For? {#look_for}
 
+```mermaid
+flowchart LR
+    A["Author: small focused CL"] --> R["Reviewer: design and behavior"]
+    R --> C["Discuss actionable comments"] --> U["Update code and tests"]
+    U --> R
+    R -->|standard met| L["Approve"]
+```
+
+The feedback loop ends when the change meets the review standard; individual
+preferences should be distinguished from required changes.
+
 Code reviews should look at:
 
 -   **Design**: Is the code well-designed and appropriate for your system?

@@ -1,5 +1,13 @@
 # The CL author's guide to getting through code review
 
+```mermaid
+flowchart LR
+    S["One focused change"] --> D["Explain what and why"] --> R["Request review"]
+    R --> C["Understand comments"] --> U["Revise and explain"] --> R
+```
+
+Use the diagram to locate the next action, then read the corresponding guide below.
+
 The pages in this section contain best practices for developers going through
 code review. These guidelines should help you get through reviews faster and
 with higher-quality results. You don't have to read them all, but they are

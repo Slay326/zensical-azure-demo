@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 860" role="img"
+     aria-label="DS-1 power distribution single-line diagram from reactor through main trunk bus to quadrant ring buses and load groups">
+  <title>DS1-DRG-004 — Power Distribution Single-Line Diagram</title>
+  <defs>
+    <pattern id="pw-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#161d24" stroke-width="1"/>
+    </pattern>
+    <pattern id="pw-core" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#8a3a34" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="860" fill="#0b0e11"/>
+  <rect width="1400" height="860" fill="url(#pw-grid)"/>
+  <rect x="16" y="16" width="1368" height="828" fill="none" stroke="#2a343d"/>
+
+  <g font-family="ui-monospace, Menlo, monospace" fill="#aab5be">
+    <text x="70" y="62" font-size="15" letter-spacing="3.2" fill="#c6d0d8">POWER DISTRIBUTION — SINGLE-LINE DIAGRAM</text>
+    <text x="70" y="84" font-size="11" letter-spacing="1.6" fill="#7d8b96">Normal operating configuration. Breakers shown in the position held during ORL-3 steady state.</text>
+
+    <!-- reactor -->
+    <circle cx="410" cy="150" r="42" fill="#16202a" stroke="#a83c33" stroke-width="2"/>
+    <circle cx="410" cy="150" r="42" fill="url(#pw-core)" opacity="0.55"/>
+    <text x="410" y="118" font-size="11" letter-spacing="1.6" fill="#d0342c" text-anchor="middle">Z0</text>
+    <text x="470" y="140" font-size="12" fill="#c6d0d8">HYPERMATTER REACTOR ASSEMBLY</text>
+    <text x="470" y="158" font-size="11" fill="#7d8b96">DS1-ENG-020 &#183; containment-limited output</text>
+
+    <!-- reactor to conversion halls -->
+    <path d="M410 192 V 214 H 300 V 236" fill="none" stroke="#7d8b96" stroke-width="1.6"/>
+    <path d="M410 192 V 214 H 520 V 236" fill="none" stroke="#7d8b96" stroke-width="1.6"/>
+
+    <!-- conversion halls -->
+    <rect x="230" y="236" width="140" height="46" fill="#131a20" stroke="#8f9ba6" stroke-width="1.4"/>
+    <text x="300" y="258" font-size="12" text-anchor="middle">PCH-A</text>
+    <text x="300" y="274" font-size="9.5" fill="#7d8b96" text-anchor="middle">PRIMARY CONVERSION</text>
+    <rect x="450" y="236" width="140" height="46" fill="#131a20" stroke="#8f9ba6" stroke-width="1.4"/>
+    <text x="520" y="258" font-size="12" text-anchor="middle">PCH-B</text>
+    <text x="520" y="274" font-size="9.5" fill="#7d8b96" text-anchor="middle">PRIMARY CONVERSION</text>
+
+    <!-- down to trunk bus, with breakers -->
+    <line x1="300" y1="282" x2="300" y2="342" stroke="#7d8b96" stroke-width="1.6"/>
+    <rect x="292" y="302" width="16" height="16" fill="#0b0e11" stroke="#4f8a76" stroke-width="1.6"/>
+    <line x1="520" y1="282" x2="520" y2="358" stroke="#7d8b96" stroke-width="1.6"/>
+    <rect x="512" y="302" width="16" height="16" fill="#0b0e11" stroke="#4f8a76" stroke-width="1.6"/>
+
+    <!-- main trunk buses -->
+    <line x1="90" y1="342" x2="790" y2="342" stroke="#c6d0d8" stroke-width="4"/>
+    <line x1="90" y1="358" x2="790" y2="358" stroke="#c6d0d8" stroke-width="4"/>
+    <text x="800" y="340" font-size="11" fill="#c6d0d8">MTB-A</text>
+    <text x="800" y="368" font-size="11" fill="#c6d0d8">MTB-B</text>
+    <text x="90" y="330" font-size="10.5" letter-spacing="1.6" fill="#7d8b96">MAIN TRUNK BUS &#8212; 2N, PHYSICALLY SEGREGATED ROUTING</text>
+
+    <!-- normally-open bus tie -->
+    <line x1="700" y1="342" x2="700" y2="358" stroke="#c8901f" stroke-width="1.6"/>
+    <rect x="692" y="342" width="16" height="16" fill="#0b0e11" stroke="#c8901f" stroke-width="1.6"/>
+    <line x1="692" y1="358" x2="708" y2="342" stroke="#c8901f" stroke-width="1.4"/>
+    <text x="716" y="392" font-size="10" fill="#c8901f">BUS TIE &#8212; NORMALLY OPEN</text>
+
+    <!-- quadrant drops -->
+    <g stroke="#7d8b96" stroke-width="1.6">
+      <line x1="150" y1="358" x2="150" y2="430"/>
+      <line x1="310" y1="358" x2="310" y2="430"/>
+      <line x1="470" y1="358" x2="470" y2="430"/>
+      <line x1="630" y1="358" x2="630" y2="430"/>
+    </g>
+    <g fill="#0b0e11" stroke="#4f8a76" stroke-width="1.6">
+      <rect x="142" y="386" width="16" height="16"/><rect x="302" y="386" width="16" height="16"/>
+      <rect x="462" y="386" width="16" height="16"/><rect x="622" y="386" width="16" height="16"/>
+    </g>
+
+    <!-- quadrant ring buses -->
+    <g>
+      <rect x="90"  y="430" width="120" height="44" fill="#131a20" stroke="#8f9ba6" stroke-width="1.4"/>
+      <rect x="250" y="430" width="120" height="44" fill="#131a20" stroke="#8f9ba6" stroke-width="1.4"/>
+      <rect x="410" y="430" width="120" height="44" fill="#131a20" stroke="#8f9ba6" stroke-width="1.4"/>
+      <rect x="570" y="430" width="120" height="44" fill="#131a20" stroke="#8f9ba6" stroke-width="1.4"/>
+      <g font-size="12" text-anchor="middle">
+        <text x="150" y="450">QRB-I</text><text x="310" y="450">QRB-II</text>
+        <text x="470" y="450">QRB-III</text><text x="630" y="450">QRB-IV</text>
+      </g>
+      <g font-size="9" fill="#7d8b96" text-anchor="middle">
+        <text x="150" y="466">QUADRANT RING BUS</text><text x="310" y="466">QUADRANT RING BUS</text>
+        <text x="470" y="466">QUADRANT RING BUS</text><text x="630" y="466">QUADRANT RING BUS</text>
+      </g>
+    </g>
+    <!-- ring interconnect (closed ring) -->
+    <path d="M90 452 H 60 V 500 H 720 V 452 H 690" fill="none" stroke="#4a5a67" stroke-width="1.4" stroke-dasharray="7 5"/>
+    <text x="330" y="518" font-size="10" letter-spacing="1.4" fill="#7d8b96">RING INTERCONNECT &#8212; CLOSED, DIRECTIONALLY PROTECTED</text>
+
+    <!-- SDB layer -->
+    <line x1="150" y1="474" x2="150" y2="540" stroke="#7d8b96" stroke-width="1.4"/>
+    <rect x="70" y="540" width="660" height="40" fill="none" stroke="#4a5a67" stroke-width="1.4" stroke-dasharray="6 4"/>
+    <text x="400" y="566" font-size="11" letter-spacing="1.6" fill="#aab5be" text-anchor="middle">SECTOR DISTRIBUTION BOARDS &#8212; 18 PER QUADRANT (72 TOTAL) &#8212; DS1-ENG-021</text>
+
+    <!-- essential / non-essential split -->
+    <line x1="240" y1="580" x2="240" y2="620" stroke="#7d8b96" stroke-width="1.4"/>
+    <line x1="560" y1="580" x2="560" y2="620" stroke="#7d8b96" stroke-width="1.4"/>
+    <line x1="90"  y1="620" x2="400" y2="620" stroke="#4f8a76" stroke-width="3.4"/>
+    <line x1="440" y1="620" x2="730" y2="620" stroke="#5c6b78" stroke-width="3.4"/>
+    <text x="90"  y="610" font-size="10.5" letter-spacing="1.4" fill="#4f8a76">ESSENTIAL BUS EB-A / EB-B &#8212; NON-SHEDDABLE</text>
+    <text x="440" y="610" font-size="10.5" letter-spacing="1.4" fill="#7d8b96">NON-ESSENTIAL BUS NEB &#8212; SHEDDABLE</text>
+
+    <!-- standby generation into essential bus -->
+    <rect x="70" y="676" width="150" height="42" fill="#131a20" stroke="#4f8a76" stroke-width="1.4"/>
+    <text x="145" y="694" font-size="11" text-anchor="middle" fill="#4f8a76">STANDBY GEN</text>
+    <text x="145" y="710" font-size="9" text-anchor="middle" fill="#7d8b96">SG-1 &#8230; SG-8, ISOLATED</text>
+    <line x1="145" y1="676" x2="145" y2="620" stroke="#4f8a76" stroke-width="1.6"/>
+    <rect x="137" y="644" width="16" height="16" fill="#0b0e11" stroke="#4f8a76" stroke-width="1.6"/>
+
+    <!-- load stubs -->
+    <g stroke="#7d8b96" stroke-width="1.2">
+      <line x1="260" y1="620" x2="260" y2="662"/><line x1="340" y1="620" x2="340" y2="662"/>
+      <line x1="480" y1="620" x2="480" y2="662"/><line x1="580" y1="620" x2="580" y2="662"/>
+      <line x1="690" y1="620" x2="690" y2="662"/>
+    </g>
+    <g font-size="9" fill="#aab5be" text-anchor="middle">
+      <text x="260" y="676">LIFE</text><text x="260" y="688">SUPPORT</text><text x="260" y="702" fill="#4f8a76">P0</text>
+      <text x="340" y="676">COMMAND</text><text x="340" y="688">&amp; CONTROL</text><text x="340" y="702" fill="#4f8a76">P0</text>
+      <text x="480" y="676">HABITATION</text><text x="480" y="688">HOTEL LOADS</text><text x="480" y="702" fill="#c8901f">P3</text>
+      <text x="580" y="676">FABRICATION</text><text x="580" y="688">WORKSHOPS</text><text x="580" y="702" fill="#c8901f">P4</text>
+      <text x="690" y="676">RECREATION</text><text x="690" y="688">&amp; WELFARE</text><text x="690" y="702" fill="#c8901f">P4</text>
+    </g>
+
+    <!-- dedicated feeders off the trunk bus -->
+    <path d="M790 350 H 830 V 236 H 866" fill="none" stroke="#c8901f" stroke-width="1.6"/>
+    <path d="M790 350 H 830 V 300 H 866" fill="none" stroke="#c8901f" stroke-width="1.6"/>
+    <rect x="866" y="214" width="200" height="44" fill="#131a20" stroke="#c8901f" stroke-width="1.4"/>
+    <text x="966" y="234" font-size="11" text-anchor="middle">PROPULSION FEEDER</text>
+    <text x="966" y="250" font-size="9" fill="#7d8b96" text-anchor="middle">DS1-ENG-030 &#183; P2</text>
+    <rect x="866" y="278" width="200" height="44" fill="#131a20" stroke="#c8901f" stroke-width="1.4"/>
+    <text x="966" y="298" font-size="11" text-anchor="middle">ARMAMENT CHARGE FEEDER</text>
+    <text x="966" y="314" font-size="9" fill="#7d8b96" text-anchor="middle">DS1-ENG-110 &#183; P2 &#183; INTERLOCKED</text>
+
+    <!-- legend -->
+    <text x="866" y="382" font-size="11" letter-spacing="3" fill="#8f9ba6">SYMBOLS</text>
+    <line x1="866" y1="392" x2="1330" y2="392" stroke="#4a5a67"/>
+    <g font-size="11.5">
+      <rect x="868" y="408" width="16" height="16" fill="#0b0e11" stroke="#4f8a76" stroke-width="1.6"/>
+      <text x="896" y="421">Circuit breaker &#8212; normally closed</text>
+      <rect x="868" y="438" width="16" height="16" fill="#0b0e11" stroke="#c8901f" stroke-width="1.6"/>
+      <line x1="868" y1="454" x2="884" y2="438" stroke="#c8901f" stroke-width="1.4"/>
+      <text x="896" y="451">Circuit breaker &#8212; normally open (tie)</text>
+      <line x1="866" y1="476" x2="888" y2="476" stroke="#c6d0d8" stroke-width="4"/>
+      <text x="896" y="481">Busbar</text>
+      <line x1="866" y1="504" x2="888" y2="504" stroke="#4a5a67" stroke-width="1.4" stroke-dasharray="7 5"/>
+      <text x="896" y="509">Ring interconnect / logical grouping</text>
+      <text x="866" y="539" fill="#4f8a76">P0 / P1</text><text x="960" y="539">Non-sheddable priority classes</text>
+      <text x="866" y="561" fill="#c8901f">P2 &#8230; P4</text><text x="960" y="561">Sheddable under Load Shed Directive LSD-1</text>
+    </g>
+
+    <!-- title block -->
+    <rect x="866" y="596" width="470" height="122" fill="#0d1318" stroke="#4a5a67"/>
+    <line x1="866" y1="642" x2="1336" y2="642" stroke="#4a5a67"/>
+    <line x1="1136" y1="642" x2="1136" y2="718" stroke="#4a5a67"/>
+    <text x="880" y="626" font-size="13" letter-spacing="2.4" fill="#c6d0d8">IMPERIAL ENGINEERING DIRECTORATE</text>
+    <text x="880" y="666" font-size="10" letter-spacing="2" fill="#55636e">DRAWING</text>
+    <text x="880" y="686" font-size="13">DS1-DRG-004</text>
+    <text x="880" y="708" font-size="11" fill="#7d8b96">Power Distribution Single-Line</text>
+    <text x="1150" y="666" font-size="10" letter-spacing="2" fill="#55636e">REV / SCALE</text>
+    <text x="1150" y="686" font-size="13">4.2 / NTS</text>
+    <text x="1150" y="708" font-size="12" letter-spacing="2.4" fill="#a83c33">IMPERIAL RESTRICTED</text>
+    <text x="866" y="756" font-size="10.5" fill="#7d8b96">Design deviation from this configuration requires approval from Imperial Engineering Command.</text>
+  </g>
+</svg>
