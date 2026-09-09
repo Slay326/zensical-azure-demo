@@ -1,5 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/staticwebapp.config.json",
+  "trailingSlash": "auto",
 
   "//": "DS-1 access control. The entire controlled library resolves under one",
   "// ": "prefix, so one rule protects all of it. Do not add exceptions --- see",
